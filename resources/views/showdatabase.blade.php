@@ -10,7 +10,7 @@ $header = "Admin page header";
     
     try {
         // Connect to MySQL
-        $bdd = new PDO('mysql:host=localhost;dbname=pizza', 'root', '');
+        $bdd = new PDO('mysql:host=sql107.epizy.com;dbname=epiz_34252559_pizza', 'epiz_34252559', 'Q8ayoihAodXU');
         $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch (Exception $e) {
         // Display error message and stop execution
